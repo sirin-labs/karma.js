@@ -1,0 +1,34 @@
+{
+    "extends": ["eslint:recommended", "google"],
+    "rules": {
+        "linebreak-style": "off",
+        "max-len": ["error", { "code": 220 }],
+        "comma-dangle": ["error", "never"],
+        "indent": ["error", 4]
+    },
+    "globals": {
+        "require": false,
+        "it": false,
+        "describe": false,
+        "beforeEach": false,
+        "before": false,
+        "specify": false,
+        "module": false,
+        "artifacts": false,
+        "contract": false,
+        "assert": false,
+        "process": false,
+        "setTimeout": true,
+        "after": false
+    },
+    "parserOptions": {
+        "ecmaVersion": 2017,
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true
+        },
+        "sourceType": "module"
+    },
+    "env": {
+        "es6": true
+    }
+}

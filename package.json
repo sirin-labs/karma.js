@@ -1,0 +1,37 @@
+{
+  "name": "karma.js",
+  "version": "1.0.2",
+  "private": true,
+  "scripts": {
+    "lint": "eslint '{src,test}/**/*.js'",
+    "test": "mocha testChannel --timeout 1000000"
+  },
+  "dependencies": {
+    "bignumber.js": "^7.2.1",
+    "debug": "~2.6.9",
+    "dotenv": "^6.0.0",
+    "ethereumjs-units": "^0.2.0",
+    "ethereumjs-util": "^5.2.0",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "js-sha3": "^0.7.0",
+    "jsonfile": "^4.0.0",
+    "morgan": "^1.9.0",
+    "morgan-debug": "^2.0.0",
+    "request-promise-native": "^1.0.5",
+    "uuid": "^3.2.1",
+    "web3": "^1.0.0-beta.34",
+    "websocket": "^1.0.26"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "chai-events": "0.0.1",
+    "chai-http": "^4.0.0",
+    "eslint": "^4.19.1",
+    "eslint-config-google": "^0.9.1",
+    "mocha": "^5.2.0",
+    "truffle": "^4.1.11",
+    "truffle-assertions": "^0.2.0"
+  }
+}
